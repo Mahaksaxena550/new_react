@@ -6,8 +6,9 @@ let App=()=>{
   return(
 
     <div>
+      <Navbar/> <br/>
     <h1 style={{color:"royalblue",background:"black"}}>Hello World</h1>
-     <Navbar/>
+     
      <Footer1/>
      <img src="vite.svg"/>
      <img src={logo} alt="" />
