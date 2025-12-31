@@ -1,8 +1,10 @@
 import React from 'react'
 
 // const PropsChild = (props) => {
+  
 const PropsChild = ({myname,myage}) => {
     // console.log(props);
+    
 
     // let {myname,myage}=props // Destructuring
 
@@ -16,4 +18,26 @@ const PropsChild = ({myname,myage}) => {
   )
 }
 
-export default PropsChild
+export  {PropsChild}
+
+
+
+
+const PropsChild1=(props)=>{
+
+  return(
+    
+    <div>
+    <div id='card'>
+      
+      <img src={props.myimg} alt="" width="100%" height="200px"/>
+      <p>Price {props.myprice}</p>
+      <p> {props.clothes}</p>
+      <button>buy</button>
+    </div>
+
+    </div>
+  )
+}
+
+export {PropsChild1}

@@ -1,0 +1,12 @@
+#card{
+    
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border: 2px,black solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
