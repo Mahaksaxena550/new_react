@@ -13,6 +13,7 @@ const Props = () => {
       <div style={{display:"flex"}}>
       <PropsChild1 myimg ="/vite.svg" myprice='800' clothes='Shirt'/> 
       <PropsChild1 myimg ="/vite.svg" myprice='999' clothes='T-Shirt'/> 
+      <PropsChild1 myimg ="/m.jpg" myprice='2000' clothes='Card'/> 
      </div>
 
 
