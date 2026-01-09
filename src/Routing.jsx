@@ -12,9 +12,11 @@ const Routing = () => {
         <Routes>
             <Route path='/' element={<Layout/>} >
 
+            <Route index element ={<Home/>} />
             <Route path='home' element={<Home/>} />
             <Route path='about' element={<About/>} />
             <Route path='contact' element={<Contact/>} />
+            <Route path='*' element={<h1>this page in not available</h1>} />
 
             </Route>
         </Routes>
