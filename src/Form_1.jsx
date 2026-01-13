@@ -20,7 +20,7 @@ const Form_1 = () => {
       Entre Age: <input type="text" name='myage' value={form.myage} onChange={handlechange} />
       Entre City: <input type="text" name='mycity' value={form.mycity} onChange={handlechange} />
 
-      <h2>My name is {form.myname}  my age is {form.myage} and my city{form.mycity}.</h2>
+      <h2>My name is {form.myname}  my age is {form.myage} and my city {form.mycity}.</h2>
     </>
   )
 }
