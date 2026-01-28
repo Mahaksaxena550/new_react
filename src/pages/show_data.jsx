@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import "../Tailwind.css"
+
 
 const show_data = () => {
     
@@ -38,7 +40,7 @@ const show_data = () => {
 
   return (
     <>
-    <table>
+    <table className=' border-4 border-double m-8 px-10 py-8'>
   
         <thead>
           <tr>

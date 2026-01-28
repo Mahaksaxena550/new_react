@@ -26,6 +26,14 @@ const Navbar_h = () => {
             <Link to="/contact" className="hover:text-blue-400 transition">
               Contact
             </Link>
+
+            <Link to="/show_data" className="hover:text-blue-400 transition">
+              Show_data
+            </Link>
+
+            <Link to="/BookingForm" className="hover:text-blue-400 transition">
+              Booking Form
+            </Link>
           </div>
 
         </nav>
